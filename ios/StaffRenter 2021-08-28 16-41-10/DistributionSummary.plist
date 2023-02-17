@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StaffRenter.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>DB30C96E5C9A3AB6F0344626C6DC588BC1CA493F</string>
+				<key>dateExpires</key>
+				<string>04/02/22</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>V3F6Z3NV9V.org.reactjs.native.example.StaffRenter</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>V3F6Z3NV9V</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>V3F6Z3NV9V.org.reactjs.native.example.StaffRenter</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>StaffRenter.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>2281a67e-0fc2-4984-beae-d5c10177418d</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: org.reactjs.native.example.StaffRenter</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>V3F6Z3NV9V</string>
+				<key>name</key>
+				<string>Tarun Nagar (Individual)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

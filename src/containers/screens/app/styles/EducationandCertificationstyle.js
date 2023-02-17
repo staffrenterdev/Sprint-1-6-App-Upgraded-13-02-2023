@@ -1,0 +1,361 @@
+import {StyleSheet} from 'react-native';
+import {width} from '../../../../constants/ScreenSize';
+import colors from '../../../../constants/colors';
+import fonts from '../../../../constants/fonts';
+import fontsize from '../../../../constants/i18n/Fontsizes';
+const styles = StyleSheet.create({
+  buttonStyle: {
+    backgroundColor: colors.yellow,
+    height: width * (36 / 375),
+    width: width * (108 / 375),
+    borderRadius: width * (18 / 375),
+  },
+  title: {
+    fontFamily: fonts.SemiBold,
+    fontSize: width * (16 / 375),
+  },
+
+  buttonTextStyle: {
+    fontSize: 16,
+    color: colors.inputTitle,
+  },
+  buttonTextStyle12: {
+    fontSize: 16,
+    color: colors.red,
+  },
+  add: {flexDirection: 'row', justifyContent: 'center'},
+
+  viewstyle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderRadius: width * (30 / 375),
+    marginBottom: width * (7 / 375),
+    paddingHorizontal: width * (22 / 375),
+    height: width * (50 / 375),
+    marginBottom: 15,
+  },
+  viewstyle1: {
+    flex: 0.1,
+    alignItems: 'center',
+  },
+  touchableStyle: {
+    height: width * (20 / 375),
+    width: width * (20 / 375),
+    borderRadius: width * (20 / 375),
+    borderColor: colors.checkbox,
+    borderWidth: 2,
+    padding: 2,
+  },
+  viewStyle2: {height: '100%', width: '100%', borderRadius: width * (20 / 375)},
+  viewstyle3: {
+    flex: 0.8,
+    alignItems: 'center',
+  },
+  buttonStyle1: {
+    backgroundColor: colors.yellow,
+    height: width * (50 / 375),
+    width: width * (150 / 375),
+    borderRadius: 25,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buttonStyle12: {
+    backgroundColor: colors.yellow,
+    height: width * (50 / 375),
+    width: width * (220 / 375),
+    borderRadius: width * (50 / 375),
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginVertical: width * (20 / 375),
+  },
+  button_Style: {
+    backgroundColor: colors.lightRed,
+    height: width * (50 / 375),
+    width: width * (220 / 375),
+    borderRadius: width * (50 / 375),
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: colors.red,
+  },
+  buttonStyle2: {
+    backgroundColor: colors.yellow,
+    height: width * (50 / 375),
+    width: width * (120 / 375),
+    borderRadius: 25,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  language: {
+    flex: 1,
+
+    paddingHorizontal: width * (15 / 375),
+    fontSize: fontsize.Regular,
+    color: colors.textinputColor,
+
+    backgroundColor: colors.white,
+    borderRadius: 30,
+    width: width * (300 / 375),
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  image1: {position: 'absolute', right: 10, top: 20, zIndex: 9999},
+  errorText: {
+    marginTop: width * (10 / 375),
+
+    color: colors.red,
+  },
+  profileImage: {
+    height: width * (93 / 375),
+    width: width * (93 / 375),
+    borderRadius: width * (93 / 375),
+    alignSelf: 'center',
+
+    backgroundColor: colors.whitebackground,
+  },
+  headingText: {
+    alignSelf: 'center',
+    marginBottom: width * (30 / 375),
+    fontSize: fontsize.Extralarge,
+    lineHeight: width * (44 / 375),
+  },
+  errorText12: {
+    fontSize: fontsize.Regular,
+
+    fontStyle: 'normal',
+  },
+  backgroundVideo: {
+    height: width * (300 / 375),
+  },
+  renderitem1: {
+    borderRadius: width * (10 / 375),
+    padding: width * (15 / 375),
+    backgroundColor: colors.whitebackground,
+    marginTop: width * (20 / 375),
+    marginHorizontal: width * (15 / 375),
+  },
+
+  style11: {
+    alignSelf: 'flex-start',
+    marginTop: width * (25 / 375),
+    marginLeft: width * (10 / 375),
+  },
+  style12: {
+    backgroundColor: colors.whitebackground,
+    padding: width * (20 / 375),
+    borderRadius: width * (30 / 375),
+    alignItems: 'center',
+  },
+  style13: {
+    backgroundColor: colors.whitebackground,
+
+    marginHorizontal: width * (15 / 375),
+    borderRadius: width * (15 / 375),
+
+    marginTop: width * (5 / 375),
+    width: '95%',
+  },
+  commbuttontext: {
+    fontSize: fontsize.Regular,
+    fontFamily: fonts.Bold,
+  },
+  style15: {
+    backgroundColor: colors.whitebackground,
+    padding: width * (15 / 375),
+    borderRadius: width * (30 / 375),
+  },
+  Certifications: {
+    fontFamily: fonts.Bold,
+    fontSize: fontsize.Medium,
+    marginVertical: 5,
+    marginHorizontal: 20,
+  },
+  anydegrees: {
+    fontFamily: fonts.Bold,
+    alignSelf: 'center',
+    fontSize: fontsize.Regular,
+    marginVertical: width * (15 / 375),
+  },
+  Pleaselet: {
+    textAlign: 'center',
+    margin: width * (10 / 375),
+    fontFamily: fonts.Regular,
+    marginHorizontal: 30,
+    lineHeight: 25,
+  },
+  Anydiploma: {
+    textAlign: 'center',
+    margin: width * (10 / 375),
+    marginTop: 15,
+    fontFamily: fonts.Regular,
+    marginHorizontal: 30,
+    lineHeight: 25,
+  },
+  Althoughcertifications: {
+    textAlign: 'center',
+    margin: width * (10 / 375),
+    marginTop: 15,
+    fontFamily: fonts.Regular,
+    marginHorizontal: 30,
+    lineHeight: 25,
+  },
+  havecertification: {
+    fontFamily: fonts.Bold,
+    alignSelf: 'center',
+    fontSize: fontsize.Regular,
+    marginVertical: width * (15 / 375),
+  },
+  trainingcertifications: {
+    textAlign: 'center',
+    margin: width * (10 / 375),
+    fontFamily: fonts.Regular,
+    marginHorizontal: 30,
+    lineHeight: 25,
+  },
+  commanbuttonstyle: {
+    flexDirection: 'row',
+    borderRadius: width * (30 / 375),
+    alignItems: 'center',
+    height: width * (40 / 375),
+    width: width * (170 / 375),
+    justifyContent: 'space-evenly',
+  },
+  mainbuttonview: {
+    paddingHorizontal: width * (15 / 375),
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    marginVertical: width * (10 / 375),
+  },
+  addbuttonview: {
+    alignItems: 'center',
+    position: 'absolute',
+    bottom: 0,
+    height: 100,
+    width: '100%',
+  },
+  renderHiddenItemview: {
+    alignItems: 'center',
+          backgroundColor: '#FFF7EB',
+          flex: 1,
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          paddingLeft: 15,
+  },
+  addButton: {
+    backgroundColor: colors.yellow,
+    borderRadius: 30,
+    height: width * (50 / 375),
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: '7%',
+    width: '90%',
+  },
+  addheadingtext: {
+    fontSize: fontsize.Large,
+    fontFamily: fonts.Bold,
+    alignSelf: 'center',
+    marginBottom: 15,
+  },
+  pickerview: {
+    borderBottomColor: colors.yellow,
+    borderBottomWidth: 1,
+    flex: 1,
+    marginHorizontal: 15,
+    justifyContent: 'center',
+    fontSize: fontsize.Regular,
+    color: colors.textinputColor,
+  },
+  downArrowimg: {
+    position: 'absolute',
+    right: 15,
+    bottom: 17,
+    alignSelf: 'flex-end',
+  },
+  imageUpLoadNew: {
+    borderWidth: 1,
+    padding: 20,
+    marginHorizontal: 15,
+    marginTop: 20,
+    borderRadius: 20,
+  },
+  Confirmbuttonview: {
+    alignItems: 'center',
+    position: 'absolute',
+    bottom: 0,
+    backgroundColor: 'white',
+    width: '100%',
+    marginTop: 30,
+  },
+  Confirmbutton: {
+    borderRadius: 30,
+    height: width * (50 / 375),
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: '7%',
+    width: '100%',
+  },
+  _rendernotiListsview: {
+    backgroundColor: '#fff',
+    borderBottomColor: 'gray',
+    borderBottomWidth: 0.3,
+    borderTopColor: 'gray',
+    justifyContent: 'center',
+    height: 100,
+  },
+  _rendernotiLists2view: {
+    backgroundColor: '#fff',
+    borderBottomColor: 'gray',
+    borderBottomWidth: 0.3,
+    borderTopColor: 'gray',
+    justifyContent: 'center',
+  },
+  File_dockimg: {
+    alignSelf: 'center',
+    marginRight: 10,
+    height: 35,
+    width: 35,
+  },
+  _rendernotiListsdocument: {
+    width: '90%',
+    alignSelf: 'center',
+
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: '#CCCCCC',
+    marginTop: width * (5 / 375),
+
+    padding: 10,
+    borderRadius: 10,
+  },
+  renderHiddenItemdocument: {
+    alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#FFF7EB',
+        flex: 1,
+        marginHorizontal: 20,
+        marginTop: width * (5 / 375),
+        paddingLeft: 15,
+  },
+  renderHiddendelete: {
+    alignItems: 'center',
+    bottom: 0,
+    justifyContent: 'center',
+    position: 'absolute',
+    top: 0,
+    right: 50,
+  },
+  datepick: {
+    marginBottom: 30,
+    borderBottomColor: colors.yellow,
+    borderBottomWidth: 1,
+    flex: 1,
+    marginHorizontal: 15,
+    justifyContent: 'center',
+    fontSize: fontsize.Regular,
+    color: colors.textinputColor,
+  },
+});
+
+export default styles;
